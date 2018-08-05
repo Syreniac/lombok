@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="projectlombok.org"
+		module="lombok"
+		revision="working@DESKTOP-MVTDM63"
+		conf="javac6"
+		confs="test, javac6, eclipseBuild"
+		date="20180805172803"/>
+	<dependencies>
+		<module organisation="net.java.openjdk.custom" name="javac6">
+			<revision name="1.6.0.18" status="integration" pubdate="20100225011200" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://openjdk.java.net/" downloaded="false" searched="false" default="false" conf="runtime" position="0">
+				<license name="GNU General Public License v2 with Classpath Exception" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="735" time="0" location="/home/syreniac/git/lombok/ivyCache/net.java.openjdk.custom/javac6/ivy-1.6.0.18.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/net.java.openjdk.custom-javac6-1.6.0.18.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/net.java.openjdk.custom-javac6-1.6.0.18.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="javac6" rev="1.6.0.18" rev-constraint-default="1.6.0.18" rev-constraint-dynamic="1.6.0.18" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="javac6" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/langtools/javac-1.6.0.18.jar" status="no" details="" size="1064637" time="0" location="/home/syreniac/git/lombok/ivyCache/net.java.openjdk.custom/javac6/jars/javac6-1.6.0.18.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/langtools/javac-1.6.0.18.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

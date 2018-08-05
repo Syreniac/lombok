@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="projectlombok.org"
+		module="lombok"
+		revision="working@DESKTOP-MVTDM63"
+		conf="eclipseBuild"
+		confs="test, javac6, eclipseBuild"
+		date="20180805172803"/>
+	<dependencies>
+		<module organisation="org.eclipse.custom" name="core.jobs">
+			<revision name="3.5.300" status="integration" pubdate="20130429181300" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="default" position="8">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="773" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.jobs/ivy-3.5.300.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.jobs-3.5.300.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.jobs-3.5.300.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="eclipseBuild" rev="3.5.300" rev-constraint-default="3.5.300" rev-constraint-dynamic="3.5.300" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="core.jobs" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.jobs_3.5.300.v20130429-1813.jar" status="no" details="" size="92479" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.jobs/jars/core.jobs-3.5.300.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.jobs_3.5.300.v20130429-1813.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="core.resources">
+			<revision name="3.8.100" status="integration" pubdate="20130521202600" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="default" position="7">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="788" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.resources/ivy-3.8.100.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.resources-3.8.100.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.resources-3.8.100.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="eclipseBuild" rev="3.8.100" rev-constraint-default="3.8.100" rev-constraint-dynamic="3.8.100" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="core.resources" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.resources_3.8.100.v20130521-2026.jar" status="no" details="" size="829710" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.resources/jars/core.resources-3.8.100.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.resources_3.8.100.v20130521-2026.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="osgi">
+			<revision name="3.9.0" status="integration" pubdate="20130529171000" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="default" position="6">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="752" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/osgi/ivy-3.9.0.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-osgi-3.9.0.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-osgi-3.9.0.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="eclipseBuild" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="osgi" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.osgi_3.9.0.v20130529-1710.jar" status="no" details="" size="1390308" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/osgi/jars/osgi-3.9.0.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.osgi_3.9.0.v20130529-1710.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="equinox.common">
+			<revision name="3.6.200" status="integration" pubdate="20130402150500" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="default" position="5">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="788" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/equinox.common/ivy-3.6.200.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-equinox.common-3.6.200.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-equinox.common-3.6.200.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="eclipseBuild" rev="3.6.200" rev-constraint-default="3.6.200" rev-constraint-dynamic="3.6.200" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="equinox.common" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" status="no" details="" size="106701" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/equinox.common/jars/equinox.common-3.6.200.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="jdt.ui">
+			<revision name="3.9.1" status="integration" pubdate="20130820142700" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="default" position="4">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="758" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/jdt.ui/ivy-3.9.1.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-jdt.ui-3.9.1.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-jdt.ui-3.9.1.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="eclipseBuild" rev="3.9.1" rev-constraint-default="3.9.1" rev-constraint-dynamic="3.9.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="jdt.ui" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.jdt.ui_3.9.1.v20130820-1427.jar" status="no" details="" size="10479626" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/jdt.ui/jars/jdt.ui-3.9.1.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.jdt.ui_3.9.1.v20130820-1427.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="jdt.core">
+			<revision name="3.9.1" status="integration" pubdate="20130905083700" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="default" position="3">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="764" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/jdt.core/ivy-3.9.1.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-jdt.core-3.9.1.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-jdt.core-3.9.1.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="eclipseBuild" rev="3.9.1" rev-constraint-default="3.9.1" rev-constraint-dynamic="3.9.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="jdt.core" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.jdt.core_3.9.1.v20130905-0837.jar" status="no" details="" size="4849416" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/jdt.core/jars/jdt.core-3.9.1.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.jdt.core_3.9.1.v20130905-0837.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="core.runtime">
+			<revision name="3.9.0" status="integration" pubdate="20130326125500" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="default" position="2">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="776" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.runtime/ivy-3.9.0.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.runtime-3.9.0.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.runtime-3.9.0.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="eclipseBuild" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="core.runtime" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.runtime_3.9.0.v20130326-1255.jar" status="no" details="" size="73635" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.runtime/jars/core.runtime-3.9.0.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.runtime_3.9.0.v20130326-1255.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.tycho" name="org.eclipse.jdt.compiler.apt">
+			<revision name="1.3.50.v20170920-0950" status="release" pubdate="20171013103256" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://www.eclipse.org/tycho/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="1">
+				<license name="Eclipse Public License" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2555" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.tycho/org.eclipse.jdt.compiler.apt/ivy-1.3.50.v20170920-0950.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/org.eclipse.tycho/org.eclipse.jdt.compiler.apt/ivy-1.3.50.v20170920-0950.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/tycho/org.eclipse.jdt.compiler.apt/1.3.50.v20170920-0950/org.eclipse.jdt.compiler.apt-1.3.50.v20170920-0950.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="eclipseBuild" rev="1.3.50.v20170920-0950" rev-constraint-default="1.3.50.v20170920-0950" rev-constraint-dynamic="1.3.50.v20170920-0950" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="org.eclipse.jdt.compiler.apt" type="jar" ext="jar" status="no" details="" size="241772" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.tycho/org.eclipse.jdt.compiler.apt/jars/org.eclipse.jdt.compiler.apt-1.3.50.v20170920-0950.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/tycho/org.eclipse.jdt.compiler.apt/1.3.50.v20170920-0950/org.eclipse.jdt.compiler.apt-1.3.50.v20170920-0950.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.tycho" name="org.eclipse.jdt.core">
+			<revision name="3.13.50.v20171007-0855" status="release" pubdate="20171013103247" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://www.eclipse.org/tycho/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="Eclipse Public License" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2524" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.tycho/org.eclipse.jdt.core/ivy-3.13.50.v20171007-0855.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/org.eclipse.tycho/org.eclipse.jdt.core/ivy-3.13.50.v20171007-0855.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/tycho/org.eclipse.jdt.core/3.13.50.v20171007-0855/org.eclipse.jdt.core-3.13.50.v20171007-0855.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="eclipseBuild" rev="3.13.50.v20171007-0855" rev-constraint-default="3.13.50.v20171007-0855" rev-constraint-dynamic="3.13.50.v20171007-0855" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="org.eclipse.jdt.core" type="jar" ext="jar" status="no" details="" size="6711399" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.tycho/org.eclipse.jdt.core/jars/org.eclipse.jdt.core-3.13.50.v20171007-0855.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/tycho/org.eclipse.jdt.core/3.13.50.v20171007-0855/org.eclipse.jdt.core-3.13.50.v20171007-0855.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

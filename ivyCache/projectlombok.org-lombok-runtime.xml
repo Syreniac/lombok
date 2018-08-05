@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="projectlombok.org"
+		module="lombok"
+		revision="working@DESKTOP-MVTDM63"
+		conf="runtime"
+		confs="runtime"
+		date="20180805172803"/>
+	<dependencies>
+		<module organisation="zwitserloot.com" name="cmdreader">
+			<revision name="1.2" status="integration" pubdate="20100210120000" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://github.com/rzwitserloot/com.zwitserloot.cmdreader" downloaded="false" searched="false" default="false" conf="runtime" position="1">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="804" time="0" location="/home/syreniac/git/lombok/ivyCache/zwitserloot.com/cmdreader/ivy-1.2.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/zwitserloot.com-cmdreader-1.2.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/zwitserloot.com-cmdreader-1.2.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="cmdreader" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/tools/com.zwitserloot.cmdreader-1.2.jar" status="no" details="" size="19082" time="0" location="/home/syreniac/git/lombok/ivyCache/zwitserloot.com/cmdreader/jars/cmdreader-1.2.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/tools/com.zwitserloot.cmdreader-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.projectlombok" name="lombok.patcher">
+			<revision name="0.26" status="integration" pubdate="20180528200000" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="https://projectlombok.org/" downloaded="false" searched="false" default="false" conf="default" position="0">
+				<license name="MIT License" url="https://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="693" time="0" location="/home/syreniac/git/lombok/ivyCache/org.projectlombok/lombok.patcher/ivy-0.26.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.projectlombok-lombok.patcher-0.26.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.projectlombok-lombok.patcher-0.26.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="runtime" rev="0.26" rev-constraint-default="0.26" rev-constraint-dynamic="0.26" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="lombok.patcher" type="jar" ext="jar" extra-url="https://projectlombok.org/downloads/lombok.patcher-0.26.jar" status="no" details="" size="336797" time="0" location="/home/syreniac/git/lombok/ivyCache/org.projectlombok/lombok.patcher/jars/lombok.patcher-0.26.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/downloads/lombok.patcher-0.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

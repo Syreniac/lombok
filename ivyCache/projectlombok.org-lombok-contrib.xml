@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="projectlombok.org"
+		module="lombok"
+		revision="working@DESKTOP-MVTDM63"
+		conf="contrib"
+		confs="contrib, ecj7, ecj8, ecj9"
+		date="20180805172806"/>
+	<dependencies>
+		<module organisation="org.eclipse.custom" name="core.jobs">
+			<revision name="3.5.300" status="integration" pubdate="20130429181300" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="sources" position="20">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="773" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.jobs/ivy-3.5.300.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.jobs-3.5.300.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.jobs-3.5.300.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="3.5.300" rev-constraint-default="3.5.300" rev-constraint-dynamic="3.5.300" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="core.jobs" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.jobs_3.5.300.v20130429-1813-sources.jar" status="successful" details="" size="95559" time="222" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.jobs/zips/core.jobs-3.5.300.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.jobs_3.5.300.v20130429-1813-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="core.resources">
+			<revision name="3.8.100" status="integration" pubdate="20130521202600" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="sources" position="19">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="788" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.resources/ivy-3.8.100.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.resources-3.8.100.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.resources-3.8.100.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="3.8.100" rev-constraint-default="3.8.100" rev-constraint-dynamic="3.8.100" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="core.resources" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.resources_3.8.100.v20130521-2026-sources.jar" status="successful" details="" size="789552" time="346" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.resources/zips/core.resources-3.8.100.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.resources_3.8.100.v20130521-2026-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="osgi">
+			<revision name="3.9.0" status="integration" pubdate="20130529171000" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="sources" position="18">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="752" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/osgi/ivy-3.9.0.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-osgi-3.9.0.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-osgi-3.9.0.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="osgi" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.osgi_3.9.0.v20130529-1710-sources.jar" status="successful" details="" size="1184384" time="489" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/osgi/zips/osgi-3.9.0.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.osgi_3.9.0.v20130529-1710-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="equinox.common">
+			<revision name="3.6.200" status="integration" pubdate="20130402150500" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="sources" position="17">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="788" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/equinox.common/ivy-3.6.200.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-equinox.common-3.6.200.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-equinox.common-3.6.200.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="3.6.200" rev-constraint-default="3.6.200" rev-constraint-dynamic="3.6.200" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="equinox.common" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.equinox.common_3.6.200.v20130402-1505-sources.jar" status="successful" details="" size="120411" time="232" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/equinox.common/zips/equinox.common-3.6.200.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.equinox.common_3.6.200.v20130402-1505-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="jdt.ui">
+			<revision name="3.9.1" status="integration" pubdate="20130820142700" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="sources" position="16">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="758" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/jdt.ui/ivy-3.9.1.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-jdt.ui-3.9.1.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-jdt.ui-3.9.1.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="3.9.1" rev-constraint-default="3.9.1" rev-constraint-dynamic="3.9.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="jdt.ui" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.jdt.ui_3.9.1.v20130820-1427-sources.jar" status="successful" details="" size="5771564" time="1315" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/jdt.ui/zips/jdt.ui-3.9.1.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.jdt.ui_3.9.1.v20130820-1427-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="jdt.core">
+			<revision name="3.9.1" status="integration" pubdate="20130905083700" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="sources" position="15">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="764" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/jdt.core/ivy-3.9.1.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-jdt.core-3.9.1.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-jdt.core-3.9.1.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="3.9.1" rev-constraint-default="3.9.1" rev-constraint-dynamic="3.9.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="jdt.core" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.jdt.core_3.9.1.v20130905-0837-sources.jar" status="successful" details="" size="4008458" time="1393" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/jdt.core/zips/jdt.core-3.9.1.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.jdt.core_3.9.1.v20130905-0837-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="core.runtime">
+			<revision name="3.9.0" status="integration" pubdate="20130326125500" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="false" searched="false" default="false" conf="sources" position="14">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="776" time="0" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.runtime/ivy-3.9.0.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.runtime-3.9.0.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-core.runtime-3.9.0.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="core.runtime" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.runtime_3.9.0.v20130326-1255-sources.jar" status="successful" details="" size="93062" time="335" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/core.runtime/zips/core.runtime-3.9.0.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/org.eclipse.core.runtime_3.9.0.v20130326-1255-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jdt.core.compiler" name="ecj">
+			<revision name="4.6.1" status="release" pubdate="20161007031215" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://www.eclipse.org/jdt/" downloaded="true" searched="true" default="false" conf="sources" position="13">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="successful" details="" size="2180" time="39" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.jdt.core.compiler/ecj/ivy-4.6.1.xml" searched="true" original-local-location="/home/syreniac/git/lombok/ivyCache/org.eclipse.jdt.core.compiler/ecj/ivy-4.6.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="4.6.1" rev-constraint-default="4.6.1" rev-constraint-dynamic="4.6.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="ecj" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="1845341" time="367" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.jdt.core.compiler/ecj/sources/ecj-4.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.custom" name="ecj">
+			<revision name="4.3.1" status="integration" pubdate="20140210214200" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="true" searched="true" default="false" conf="sources" position="12">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="successful" details="" size="636" time="3" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/ecj/ivy-4.3.1.xml" searched="true" original-local-location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/ecj/ivy-4.3.1.xml.original" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-ecj-4.3.1.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="ecj" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/eclipse/ecjsrc-4.3.1.zip" status="successful" details="" size="1451961" time="625" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/ecj/zips/ecj-4.3.1.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/ecjsrc-4.3.1.zip"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.openjdk.custom" name="javac7">
+			<revision name="1.7.0" status="integration" pubdate="20110811230000" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://openjdk.java.net/" downloaded="false" searched="false" default="false" conf="sources" position="11">
+				<license name="GNU General Public License v2 with Classpath Exception" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="726" time="0" location="/home/syreniac/git/lombok/ivyCache/net.java.openjdk.custom/javac7/ivy-1.7.0.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/net.java.openjdk.custom-javac7-1.7.0.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/net.java.openjdk.custom-javac7-1.7.0.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="javac7" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/langtools/javac-1.7.0-sources.zip" status="successful" details="" size="1969761" time="1421" location="/home/syreniac/git/lombok/ivyCache/net.java.openjdk.custom/javac7/zips/javac7-1.7.0.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/langtools/javac-1.7.0-sources.zip"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.openjdk.custom" name="javac6">
+			<revision name="1.6.0.18" status="integration" pubdate="20100225011200" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://openjdk.java.net/" downloaded="false" searched="false" default="false" conf="sources" position="10">
+				<license name="GNU General Public License v2 with Classpath Exception" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="735" time="0" location="/home/syreniac/git/lombok/ivyCache/net.java.openjdk.custom/javac6/ivy-1.6.0.18.xml" searched="false" original-local-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/net.java.openjdk.custom-javac6-1.6.0.18.xml" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/net.java.openjdk.custom-javac6-1.6.0.18.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="1.6.0.18" rev-constraint-default="1.6.0.18" rev-constraint-dynamic="1.6.0.18" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="javac6" type="zip" ext="zip" extra-url="https://projectlombok.org/ivyrepo/langtools/javac-1.6.0.18-sources.zip" status="successful" details="" size="863587" time="1609" location="/home/syreniac/git/lombok/ivyCache/net.java.openjdk.custom/javac6/zips/javac6-1.6.0.18.zip">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/langtools/javac-1.6.0.18-sources.zip"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant">
+			<revision name="1.8.1" status="release" pubdate="20100430220420" resolver="maven-repo2" artresolver="maven-repo2" homepage="" downloaded="false" searched="false" default="false" conf="sources" position="9">
+				<metadata-artifact status="no" details="" size="2768" time="0" location="/home/syreniac/git/lombok/ivyCache/org.apache.ant/ant/ivy-1.8.1.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/org.apache.ant/ant/ivy-1.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ant/ant/1.8.1/ant-1.8.1.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="18.0" status="release" pubdate="20140825184834" resolver="maven-repo2" artresolver="maven-repo2" homepage="" downloaded="false" searched="false" default="false" conf="sources" position="8">
+				<metadata-artifact status="no" details="" size="5938" time="0" location="/home/syreniac/git/lombok/ivyCache/com.google.guava/guava/ivy-18.0.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/com.google.guava/guava/ivy-18.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="guava" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="1277909" time="243" location="/home/syreniac/git/lombok/ivyCache/com.google.guava/guava/sources/guava-18.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.flogger" name="flogger">
+			<revision name="0.2" status="release" pubdate="20180604152655" resolver="maven-repo2" artresolver="maven-repo2" homepage="https://github.com/google/flogger" downloaded="false" searched="false" default="false" conf="sources" position="7">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3109" time="0" location="/home/syreniac/git/lombok/ivyCache/com.google.flogger/flogger/ivy-0.2.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/com.google.flogger/flogger/ivy-0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/flogger/flogger/0.2/flogger-0.2.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="flogger" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="107828" time="71" location="/home/syreniac/git/lombok/ivyCache/com.google.flogger/flogger/sources/flogger-0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/flogger/flogger/0.2/flogger-0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.logging" name="jboss-logging">
+			<revision name="3.3.0.Final" status="release" pubdate="20150528164939" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://www.jboss.org" downloaded="false" searched="false" default="false" conf="sources" position="6">
+				<license name="Apache License, version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9531" time="0" location="/home/syreniac/git/lombok/ivyCache/org.jboss.logging/jboss-logging/ivy-3.3.0.Final.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/org.jboss.logging/jboss-logging/ivy-3.3.0.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="3.3.0.Final" rev-constraint-default="3.3.0.Final" rev-constraint-dynamic="3.3.0.Final" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="jboss-logging" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="53070" time="57" location="/home/syreniac/git/lombok/ivyCache/org.jboss.logging/jboss-logging/sources/jboss-logging-3.3.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-ext">
+			<revision name="1.6.1" status="release" pubdate="20100705203024" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="sources" position="5">
+				<metadata-artifact status="no" details="" size="4944" time="0" location="/home/syreniac/git/lombok/ivyCache/org.slf4j/slf4j-ext/ivy-1.6.1.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/org.slf4j/slf4j-ext/ivy-1.6.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.6.1/slf4j-ext-1.6.1.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="slf4j-ext" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="35364" time="42" location="/home/syreniac/git/lombok/ivyCache/org.slf4j/slf4j-ext/sources/slf4j-ext-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.6.1/slf4j-ext-1.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.1" status="release" pubdate="20100705202924" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="sources" position="4">
+				<metadata-artifact status="no" details="" size="4320" time="0" location="/home/syreniac/git/lombok/ivyCache/org.slf4j/slf4j-api/ivy-1.6.1.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/org.slf4j/slf4j-api/ivy-1.6.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="45038" time="68" location="/home/syreniac/git/lombok/ivyCache/org.slf4j/slf4j-api/sources/slf4j-api-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071126202410" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="sources" position="3">
+				<metadata-artifact status="no" details="" size="4140" time="0" location="/home/syreniac/git/lombok/ivyCache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/commons-logging/commons-logging/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="commons-logging" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="74976" time="50" location="/home/syreniac/git/lombok/ivyCache/commons-logging/commons-logging/sources/commons-logging-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.0-beta4" status="release" pubdate="20130128074529" resolver="maven-repo2" artresolver="maven-repo2" homepage="" downloaded="false" searched="false" default="false" conf="sources" position="2">
+				<metadata-artifact status="no" details="" size="10648" time="0" location="/home/syreniac/git/lombok/ivyCache/org.apache.logging.log4j/log4j-api/ivy-2.0-beta4.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/org.apache.logging.log4j/log4j-api/ivy-2.0-beta4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta4/log4j-api-2.0-beta4.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="2.0-beta4" rev-constraint-default="2.0-beta4" rev-constraint-dynamic="2.0-beta4" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="log4j-api" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="93988" time="60" location="/home/syreniac/git/lombok/ivyCache/org.apache.logging.log4j/log4j-api/sources/log4j-api-2.0-beta4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta4/log4j-api-2.0-beta4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.16" status="release" pubdate="20100331042544" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="sources" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3521" time="0" location="/home/syreniac/git/lombok/ivyCache/log4j/log4j/ivy-1.2.16.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/log4j/log4j/ivy-1.2.16.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="log4j" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="471225" time="107" location="/home/syreniac/git/lombok/ivyCache/log4j/log4j/sources/log4j-1.2.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.2" status="release" pubdate="20101005085127" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="sources" position="0">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2599" time="0" location="/home/syreniac/git/lombok/ivyCache/junit/junit/ivy-4.8.2.xml" searched="false" original-local-location="/home/syreniac/git/lombok/ivyCache/junit/junit/ivy-4.8.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="contrib" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="junit" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="147086" time="85" location="/home/syreniac/git/lombok/ivyCache/junit/junit/sources/junit-4.8.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,9 @@
+#Sun Aug 05 17:28:17 GMT 2018
+eclipse.preferences.version=1
+cleanup_settings_version=2
+formatter_profile=_Reinier's Settings
+formatter_settings_version=11
+org.eclipse.jdt.ui.ignorelowercasenames=true
+org.eclipse.jdt.ui.importorder=java;javax;org;com;
+org.eclipse.jdt.ui.ondemandthreshold=99
+org.eclipse.jdt.ui.staticondemandthreshold=2

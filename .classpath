@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/core/"/>
+	<classpathentry kind="src" path="src/launch/"/>
+	<classpathentry kind="src" path="src/utils/"/>
+	<classpathentry kind="src" path="src/eclipseAgent/"/>
+	<classpathentry kind="src" path="src/installer/"/>
+	<classpathentry kind="src" path="src/delombok/"/>
+	<classpathentry kind="src" path="src/stubs/"/>
+	<classpathentry kind="src" path="src/testAP/"/>
+	<classpathentry kind="src" path="src/website/"/>
+	<classpathentry kind="src" path="experimental/src/"/>
+	<classpathentry kind="src" path="test/transform/src/"/>
+	<classpathentry kind="src" path="test/core/src/"/>
+	<classpathentry kind="src" path="test/bytecode/src/"/>
+	<classpathentry kind="src" path="test/configuration/src/"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/build/netbeans.org-boot.jar"/>
+	<classpathentry kind="lib" path="lib/build/netbeans.org-openide.modules.jar"/>
+	<classpathentry kind="lib" path="lib/build/netbeans.org-openide.util.jar"/>
+	<classpathentry kind="lib" path="lib/build/netbeans.org-modules.java.source.jar"/>
+	<classpathentry kind="lib" path="lib/build/net.java.openjdk.custom-javac6.jar" sourcepath="lib/contrib/net.java.openjdk.custom-javac6.zip"/>
+	<classpathentry kind="lib" path="lib/build/org.projectlombok-lombok.patcher.jar"/>
+	<classpathentry kind="lib" path="lib/build/zwitserloot.com-cmdreader.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.apache.ant-ant.jar"/>
+	<classpathentry kind="lib" path="lib/build/projectlombok.org-spi.jar"/>
+	<classpathentry kind="lib" path="lib/build/com.hierynomus-sshj.jar"/>
+	<classpathentry kind="lib" path="lib/build/projectlombok.org-markdownj.jar"/>
+	<classpathentry kind="lib" path="lib/build/de.java2html-java2html.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.freemarker-freemarker.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.apache.ant-ant-launcher.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.slf4j-slf4j-api.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.bouncycastle-bcprov-jdk15on.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.bouncycastle-bcpkix-jdk15on.jar"/>
+	<classpathentry kind="lib" path="lib/build/com.jcraft-jzlib.jar"/>
+	<classpathentry kind="lib" path="lib/build/net.i2p.crypto-eddsa.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.eclipse.tycho-org.eclipse.jdt.core.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.eclipse.tycho-org.eclipse.jdt.compiler.apt.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.eclipse.custom-core.runtime.jar" sourcepath="lib/contrib/org.eclipse.custom-core.runtime.zip"/>
+	<classpathentry kind="lib" path="lib/build/org.eclipse.custom-jdt.core.jar" sourcepath="lib/contrib/org.eclipse.custom-jdt.core.zip"/>
+	<classpathentry kind="lib" path="lib/build/org.eclipse.custom-jdt.ui.jar" sourcepath="lib/contrib/org.eclipse.custom-jdt.ui.zip"/>
+	<classpathentry kind="lib" path="lib/build/org.eclipse.custom-equinox.common.jar" sourcepath="lib/contrib/org.eclipse.custom-equinox.common.zip"/>
+	<classpathentry kind="lib" path="lib/build/org.eclipse.custom-osgi.jar" sourcepath="lib/contrib/org.eclipse.custom-osgi.zip"/>
+	<classpathentry kind="lib" path="lib/build/org.eclipse.custom-core.resources.jar" sourcepath="lib/contrib/org.eclipse.custom-core.resources.zip"/>
+	<classpathentry kind="lib" path="lib/build/org.eclipse.custom-core.jobs.jar" sourcepath="lib/contrib/org.eclipse.custom-core.jobs.zip"/>
+	<classpathentry kind="lib" path="lib/test/junit-junit.jar" sourcepath="lib/contrib/junit-junit.jar"/>
+	<classpathentry kind="lib" path="lib/test/log4j-log4j.jar" sourcepath="lib/contrib/log4j-log4j.jar"/>
+	<classpathentry kind="lib" path="lib/test/org.apache.logging.log4j-log4j-api.jar" sourcepath="lib/contrib/org.apache.logging.log4j-log4j-api.jar"/>
+	<classpathentry kind="lib" path="lib/test/commons-logging-commons-logging.jar" sourcepath="lib/contrib/commons-logging-commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/test/org.slf4j-slf4j-api.jar" sourcepath="lib/contrib/org.slf4j-slf4j-api.jar"/>
+	<classpathentry kind="lib" path="lib/test/org.slf4j-slf4j-ext.jar" sourcepath="lib/contrib/org.slf4j-slf4j-ext.jar"/>
+	<classpathentry kind="lib" path="lib/test/org.jboss.logging-jboss-logging.jar" sourcepath="lib/contrib/org.jboss.logging-jboss-logging.jar"/>
+	<classpathentry kind="lib" path="lib/test/com.google.flogger-flogger.jar" sourcepath="lib/contrib/com.google.flogger-flogger.jar"/>
+	<classpathentry kind="lib" path="lib/test/com.google.guava-guava.jar" sourcepath="lib/contrib/com.google.guava-guava.jar"/>
+	<classpathentry kind="lib" path="lib/test/com.google.code.findbugs-findbugs.jar"/>
+	<classpathentry kind="lib" path="lib/test/ch.qos.cal10n-cal10n-api.jar"/>
+	<classpathentry kind="lib" path="lib/test/com.google.code.findbugs-jsr305.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

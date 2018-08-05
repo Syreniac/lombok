@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="projectlombok.org"
+		module="lombok"
+		revision="working@DESKTOP-MVTDM63"
+		conf="ecj7"
+		confs="contrib, ecj7, ecj8, ecj9"
+		date="20180805172806"/>
+	<dependencies>
+		<module organisation="org.eclipse.custom" name="ecj">
+			<revision name="4.3.1" status="integration" pubdate="20140210214200" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://www.eclipse.org/eclipse/" downloaded="true" searched="true" default="false" conf="default" position="0">
+				<license name="Eclipse Public Licence v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="successful" details="" size="636" time="3" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/ecj/ivy-4.3.1.xml" searched="true" original-local-location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/ecj/ivy-4.3.1.xml.original" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/org.eclipse.custom-ecj-4.3.1.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="ecj7" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="ecj" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/eclipse/ecj-4.3.1.jar" status="successful" details="" size="1830791" time="925" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.custom/ecj/jars/ecj-4.3.1.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/eclipse/ecj-4.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

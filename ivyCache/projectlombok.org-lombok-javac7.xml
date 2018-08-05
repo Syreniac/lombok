@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="projectlombok.org"
+		module="lombok"
+		revision="working@DESKTOP-MVTDM63"
+		conf="javac7"
+		confs="build, javac7"
+		date="20180805172748"/>
+	<dependencies>
+		<module organisation="net.java.openjdk.custom" name="javac7">
+			<revision name="1.7.0" status="integration" pubdate="20110811230000" resolver="projectLocalRepo" artresolver="projectLocalRepo" homepage="http://openjdk.java.net/" downloaded="true" searched="true" default="false" conf="runtime" position="0">
+				<license name="GNU General Public License v2 with Classpath Exception" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="successful" details="" size="672" time="3" location="/home/syreniac/git/lombok/ivyCache/net.java.openjdk.custom/javac7/ivy-1.7.0.xml" searched="true" original-local-location="/home/syreniac/git/lombok/ivyCache/net.java.openjdk.custom/javac7/ivy-1.7.0.xml.original" origin-is-local="true" origin-location="/home/syreniac/git/lombok/buildScripts/ivy-repo/net.java.openjdk.custom-javac7-1.7.0.xml"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="javac7" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="javac7" type="jar" ext="jar" extra-url="https://projectlombok.org/ivyrepo/langtools/javac-1.7.0.jar" status="successful" details="" size="2395426" time="699" location="/home/syreniac/git/lombok/ivyCache/net.java.openjdk.custom/javac7/jars/javac7-1.7.0.jar">
+						<origin-location is-local="false" location="https://projectlombok.org/ivyrepo/langtools/javac-1.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="projectlombok.org"
+		module="lombok"
+		revision="working@DESKTOP-MVTDM63"
+		conf="ecj8"
+		confs="contrib, ecj7, ecj8, ecj9"
+		date="20180805172806"/>
+	<dependencies>
+		<module organisation="org.eclipse.jdt.core.compiler" name="ecj">
+			<revision name="4.6.1" status="release" pubdate="20161007031215" resolver="maven-repo2" artresolver="maven-repo2" homepage="http://www.eclipse.org/jdt/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="successful" details="" size="2180" time="39" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.jdt.core.compiler/ecj/ivy-4.6.1.xml" searched="true" original-local-location="/home/syreniac/git/lombok/ivyCache/org.eclipse.jdt.core.compiler/ecj/ivy-4.6.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.pom"/>
+				<caller organisation="projectlombok.org" name="lombok" conf="ecj8" rev="4.6.1" rev-constraint-default="4.6.1" rev-constraint-dynamic="4.6.1" callerrev="working@DESKTOP-MVTDM63"/>
+				<artifacts>
+					<artifact name="ecj" type="jar" ext="jar" status="successful" details="" size="2440899" time="517" location="/home/syreniac/git/lombok/ivyCache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-4.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

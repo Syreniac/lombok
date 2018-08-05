@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.apache.logging.log4j"
+		module="log4j-api"
+		revision="2.0-beta4"
+		status="release"
+		publication="20130128074529"
+	>
+		<description homepage="">
+		The Log4J API
+		</description>
+		<m:properties__projectDir>/api</m:properties__projectDir>
+		<m:properties__log4jParentDir>${basedir}/..</m:properties__log4jParentDir>
+		<m:properties__docLabel>API Documentation</m:properties__docLabel>
+		<m:properties__Log4jReleaseVersion>2.0-beta4</m:properties__Log4jReleaseVersion>
+		<m:properties__osgi.private/>
+		<m:properties__manifestfile>target/osgi/MANIFEST.MF</m:properties__manifestfile>
+		<m:properties__maven.compile.target>1.5</m:properties__maven.compile.target>
+		<m:properties__osgi.import>*</m:properties__osgi.import>
+		<m:properties__pmd.plugin.version>2.7.1</m:properties__pmd.plugin.version>
+		<m:properties__maven.compile.source>1.5</m:properties__maven.compile.source>
+		<m:properties__surefire.plugin.version>2.12.4</m:properties__surefire.plugin.version>
+		<m:properties__jackson.version>1.9.2</m:properties__jackson.version>
+		<m:properties__changes.plugin.version>2.8</m:properties__changes.plugin.version>
+		<m:properties__osgi.export>org.apache.logging.log4j.*;version=${project.version};-noimport:=true</m:properties__osgi.export>
+		<m:properties__slf4j.version>1.7.2</m:properties__slf4j.version>
+		<m:properties__osgi.dynamicImport/>
+		<m:properties__osgi.symbolicName>org.apache.logging.${project.artifactId}</m:properties__osgi.symbolicName>
+		<m:properties__logback.version>1.0.7</m:properties__logback.version>
+		<m:properties__javadoc.plugin.version>2.9</m:properties__javadoc.plugin.version>
+		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
+		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-checkstyle-plugin__null|null__maven-compiler-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|null__maven-resources-plugin__2.5|org.apache.maven.plugins__maven-surefire-plugin__2.12.4|org.apache.maven.plugins__maven-site-plugin__3.0|org.apache.felix__maven-bundle-plugin__null|org.apache.maven.plugins__maven-pdf-plugin__1.2|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-checkstyle-plugin__null|null__maven-compiler-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|null__maven-resources-plugin__2.5|org.apache.maven.plugins__maven-surefire-plugin__2.12.4|org.apache.maven.plugins__maven-site-plugin__3.0|org.apache.felix__maven-bundle-plugin__null|org.apache.maven.plugins__maven-pdf-plugin__1.2</m:maven.plugins>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.7.2</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.slf4j__slf4j-ext__version>1.7.2</m:dependency.management__org.slf4j__slf4j-ext__version>
+		<m:dependency.management__ch.qos.logback__logback-core__version>1.0.7</m:dependency.management__ch.qos.logback__logback-core__version>
+		<m:dependency.management__ch.qos.logback__logback-core__scope>test</m:dependency.management__ch.qos.logback__logback-core__scope>
+		<m:dependency.management__ch.qos.logback__logback-classic__version>1.0.7</m:dependency.management__ch.qos.logback__logback-classic__version>
+		<m:dependency.management__org.apache.logging.log4j__log4j-api__version>2.0-beta4</m:dependency.management__org.apache.logging.log4j__log4j-api__version>
+		<m:dependency.management__org.apache.logging.log4j__log4j-core__version>2.0-beta4</m:dependency.management__org.apache.logging.log4j__log4j-core__version>
+		<m:dependency.management__org.apache.logging.log4j.adapters__log4j-slf4j-impl__version>2.0-beta4</m:dependency.management__org.apache.logging.log4j.adapters__log4j-slf4j-impl__version>
+		<m:dependency.management__org.apache.logging.log4j.adapters__log4j-jcl__version>2.0-beta4</m:dependency.management__org.apache.logging.log4j.adapters__log4j-jcl__version>
+		<m:dependency.management__org.apache.logging.log4j.adapters__log4j-1.2-api__version>2.0-beta4</m:dependency.management__org.apache.logging.log4j.adapters__log4j-1.2-api__version>
+		<m:dependency.management__org.osgi__core__version>4.3.0</m:dependency.management__org.osgi__core__version>
+		<m:dependency.management__org.osgi__core__scope>provided</m:dependency.management__org.osgi__core__scope>
+		<m:dependency.management__oro__oro__version>2.0.8</m:dependency.management__oro__oro__version>
+		<m:dependency.management__org.fusesource.jansi__jansi__version>1.9</m:dependency.management__org.fusesource.jansi__jansi__version>
+		<m:dependency.management__org.codehaus.jackson__jackson-core-asl__version>1.9.2</m:dependency.management__org.codehaus.jackson__jackson-core-asl__version>
+		<m:dependency.management__org.codehaus.jackson__jackson-mapper-asl__version>1.9.2</m:dependency.management__org.codehaus.jackson__jackson-mapper-asl__version>
+		<m:dependency.management__javax.mail__mail__version>1.4.5</m:dependency.management__javax.mail__mail__version>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-jms_1.1_spec__version>1.0</m:dependency.management__org.apache.geronimo.specs__geronimo-jms_1.1_spec__version>
+		<m:dependency.management__org.mockejb__mockejb__version>0.6-beta2</m:dependency.management__org.mockejb__mockejb__version>
+		<m:dependency.management__org.mockejb__mockejb__scope>test</m:dependency.management__org.mockejb__mockejb__scope>
+		<m:dependency.management__javax.servlet__servlet-api__version>2.4</m:dependency.management__javax.servlet__servlet-api__version>
+		<m:dependency.management__javax.servlet__servlet-api__scope>provided</m:dependency.management__javax.servlet__servlet-api__scope>
+		<m:dependency.management__junit__junit__version>4.7</m:dependency.management__junit__junit__version>
+		<m:dependency.management__junit__junit__scope>test</m:dependency.management__junit__junit__scope>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="log4j-api" type="jar" ext="jar" conf="master"/>
+		<artifact name="log4j-api" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="log4j-api" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="commons-httpclient" name="commons-httpclient" rev="3.1" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="junit" name="junit" rev="4.3.1" force="true" conf="test->runtime(*),master(*)"/>
+		<override org="org.slf4j" module="slf4j-ext" matcher="exact" rev="1.7.2"/>
+		<override org="org.codehaus.jackson" module="jackson-core-asl" matcher="exact" rev="1.9.2"/>
+		<override org="org.apache.geronimo.specs" module="geronimo-jms_1.1_spec" matcher="exact" rev="1.0"/>
+		<override org="oro" module="oro" matcher="exact" rev="2.0.8"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.7"/>
+		<override org="ch.qos.logback" module="logback-classic" matcher="exact" rev="1.0.7"/>
+		<override org="org.apache.logging.log4j.adapters" module="log4j-1.2-api" matcher="exact" rev="2.0-beta4"/>
+		<override org="org.apache.logging.log4j" module="log4j-api" matcher="exact" rev="2.0-beta4"/>
+		<override org="org.codehaus.jackson" module="jackson-mapper-asl" matcher="exact" rev="1.9.2"/>
+		<override org="javax.mail" module="mail" matcher="exact" rev="1.4.5"/>
+		<override org="org.mockejb" module="mockejb" matcher="exact" rev="0.6-beta2"/>
+		<override org="javax.servlet" module="servlet-api" matcher="exact" rev="2.4"/>
+		<override org="org.osgi" module="core" matcher="exact" rev="4.3.0"/>
+		<override org="org.fusesource.jansi" module="jansi" matcher="exact" rev="1.9"/>
+		<override org="org.slf4j" module="slf4j-api" matcher="exact" rev="1.7.2"/>
+		<override org="org.apache.logging.log4j" module="log4j-core" matcher="exact" rev="2.0-beta4"/>
+		<override org="ch.qos.logback" module="logback-core" matcher="exact" rev="1.0.7"/>
+		<override org="org.apache.logging.log4j.adapters" module="log4j-slf4j-impl" matcher="exact" rev="2.0-beta4"/>
+		<override org="org.apache.logging.log4j.adapters" module="log4j-jcl" matcher="exact" rev="2.0-beta4"/>
+	</dependencies>
+</ivy-module>
